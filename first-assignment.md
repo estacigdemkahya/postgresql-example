@@ -38,7 +38,10 @@ WHERE rental_rate = 0.99 AND (replacement_cost = 12.99 OR replacement_cost = 28.
 4.customer tablosunda bulunan first_name sütunundaki değeri 'Mary' olan müşterinin last_name sütunundaki değeri nedir?
 
 ```
-Sample text here...
+
+SELECT last_name  FROM customer
+WHERE first_name = 'Mary';
+
 ```
 
 
@@ -48,5 +51,8 @@ Kolay Gelsin.
 
 
 ```
-Sample text here...
+
+SELECT * FROM film
+WHERE length <= 50 AND rental_rate NOT IN (2.99, 4.99);
+
 ```
