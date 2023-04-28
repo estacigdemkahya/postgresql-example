@@ -1,4 +1,4 @@
-#Ödev
+ÖDEV:
 
 Merhabalar,
 
