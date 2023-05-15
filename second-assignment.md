@@ -17,7 +17,14 @@ WHERE replacement_cost BETWEEN 12.99 AND 16.99;
 2. .actor tablosunda bulunan first_name ve last_name sütunlardaki verileri first_name 'Penelope' veya 'Nick' veya 'Ed' değerleri olması koşuluyla sıralayınız. ( IN operatörünü kullanınız.)
 
 ```
-cevap
+SELECT first_name, last_name
+FROM actor
+WHERE first_name IN ('Penelope', 'Nick', 'Ed');
+
+
+SELECT first_name, last_name komutu, actor tablosundan first_name ve last_name sütunlarını seçmemizi sağlar.
+FROM actor komutu, verilerin hangi tablodan alınacağını belirtir. Bu durumda actor tablosundan alıyoruz.
+WHERE first_name IN ('Penelope', 'Nick', 'Ed') komutu, seçilecek verileri filtrelememize yarar. Bu komutla sadece first_name sütununda belirtilen değerlerden birine sahip olan verileri seçiyoruz. IN operatörü, birden fazla değer arasında seçim yapmamızı sağlar. Parantez içindeki değerler arasına virgül koyarak ayrıyoruz.
 ```
 
 
