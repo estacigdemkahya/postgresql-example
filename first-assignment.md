@@ -1,5 +1,9 @@
 # 1.ÖDEV:
 
+## WHERE ve Mantıksal Operatörler
+## WHERE ve Karşılaştırma Operatörleri
+
+
 Merhabalar,
 
 Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
